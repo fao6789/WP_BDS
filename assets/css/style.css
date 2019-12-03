@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: auto;
+}
+/********** top header */
+#header .top-header{
+    display: flex;
+}
+p{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+h4{
+    font-size: 15px;
+    font-weight: 500;
+}
+/********** end top header */
+/********** menu */
+.menu ,.navbar ,#menu-menu-1 li ul{ 
+    background-color: #5EAE36;
+    padding: 0;
+}
+.navbar{ 
+    padding: 0;
+}
+.menu a{
+    color: #fff;
+    font-weight: 500;
+}
+#menu-menu-1 li{
+    padding: 0px;
+}
+#menu-menu-1 li:first-child{
+    padding: 0;
+}
+#menu-menu-1 li a {
+    padding: 1rem 1.2rem ;
+}
+#menu-menu-1 li:hover{
+    background-color: #2D7609;
+}
+#menu-menu-1 li:hover >ul{
+    display: block;
+}
+.dropdown-item:hover{
+    background-color: #2D7609;
+    color: #fff;
+}
+
+/********** end menu */
+/********** slider header*/
+.slide-header .owl-dots{
+    transform: translateY(-150%);
+}
+/********** end slider  header */
+/********** box */
+#home  h3{
+    background: #fff;
+    z-index: 4;
+    position: relative;
+    padding: 0 20px;
+    display: inline-block;
+}
+#home  .text-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #5eae36;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#home  .text-title::after{
+    position: absolute;
+    height: 2px;
+    background: #5eae36;
+    width: 100%;
+    left: 0;
+    content: "";
+    bottom: 20px;
+}
+#home  .card-footer p{
+    text-align: center;
+}
+/********** end box */
+/* box3 */
+.box3 .img-bg{
+    background-image: url(../img/bg-xct.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box3 .img-bg p{
+    color: #fff;
+    text-align: center;
+}
+/* end box3 */
+/* box4 */
+.box4 .block-1{
+    display: flex;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3333;
+}
+.box4 .block-1 img{
+    height: 100px;
+    width: 120px;
+}
+.box4 .block-1 .text{
+    padding-left: 10px;
+}
+/* end box4 */
+
+/* box 5 */
+.box5 .owl-dots{
+    display: none;
+}
+/* end box 5 */
+
+/* footer */
+footer .footer-top{
+    background-color: #5eae36;
+}
+footer p{
+    color: #fff;
+}
+.footer-top .btn{
+    width: 100%;
+    background-color: inherit;
+    color: #fff;
+}
+.footer-top .title p{
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 2px solid #e0c906;
+    margin-bottom: 5px;
+}
+.form-control{
+    background-color: inherit;
+    color: #fff;
+}
+.footer-top input::placeholder{
+    color: #ffff;
+
+}
+.footer-top ul li{
+    background-image: url(../img/list-style-footer.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+    list-style: none;
+    padding-left: 20px;
+}
+.footer-top ul li a{
+    color: #fff;
+}
+/* end footer */
+/* sidebar */
+.form-side-bar , .fb-sidebar ,.img-sidebar ,.video-sidebar ,.post-sidebar{ 
+    border: 1px solid #3333;
+}
+aside .title, .form-side-bar form, .fb-sidebar .fb ,.img-sidebar .img , .video-sidebar .video , .post-sidebar .post{
+    margin: 5px;
+}
+aside .title p{
+    text-align: center;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+}
+aside .title{
+    background: #ce4c06;
+}
+.form-side-bar .btn{
+    background:#f78e05 ;
+    padding: 5px 50px;
+    margin: auto;
+    display: block;
+}
+.img-sidebar .img img, .post img{
+    width:  100%;
+}
+.post-sidebar .post{
+    border-bottom:1px dotted silver ;
+}
+.post-sidebar  .post-title{
+    padding-left: 0;
+}
+.post-sidebar .post .row{
+    padding: 5px 0;
+}
+/* end sidebar */
+/* archive */
+.archive .box-img img{
+    width: 100%;
+}
+.archive .box-img img:hover{
+    transform: scale(1.5);
+    transition: 0.6s;
+}
+.archive .col-md-9  .box-img{
+    overflow: hidden;
+}
+.archive .col-md-9 .box-card{
+    background: #f7f7f7;
+    padding: 10px;
+}
+.archive .col-md-9 h3{
+    font-size: 1rem;
+    color:#6e6a6a ;
+}
+/* .archive .col-md-9 .box-descrep{
+    border-bottom: 1px solid #e1e1e1;
+} */
+.archive .col-md-9 .box-more p{
+    padding: 10px;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+/* end archive */
+/******** single */
+.single h2{
+    font-size: 22px;
+    background-color: #e6e6e6;
+    border-left: 10px solid;
+    padding: 6px;
+    margin-top: 18px;
+}
+.single h3{
+    font-size: 19px;
+}
+
+.single h4{
+    font-size: 17px;
+}
+
+.single p{
+    font-size: 15px;
+}
+/* end single */
+
